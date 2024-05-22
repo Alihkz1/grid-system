@@ -1,8 +1,2 @@
 # GridSystem
-used packages are listed below:
-
--bootstrap 5
--Ngbmodule 
--Angular Material: 
-  -CdkAccordionModule
-  -ScrollingModule
+create a dashboard using bootstrap@5 which is responsive and resizable! 
