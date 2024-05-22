@@ -1,1 +1,27 @@
-<div class="h-100 w-100"></div>
+<div class="h-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="music-wrapper w-50">
+
+        <audio id="audio" controls>
+            <source src="assets/music/ekipam.mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="w-100 d-flex justify-content-center">
+            <img [class.rotate]="isPlaying" class="music-image mt-2" src="assets/svg/music.svg" alt="">
+        </div>
+
+        <div class="mt-4 d-flex justify-content-center">
+            @if(!isPlaying){
+            <button class="play-button" id="playPause" (click)="onPlay()">
+                <img src="assets/svg/play.svg" alt="">
+            </button>
+            }
+            @if(isPlaying){
+            <button class="stop-button" id="stop" (click)="onStop()">
+                <img src="assets/svg/pause.svg" alt="">
+            </button>
+            }
+        </div>
+
+    </div>
+</div>
