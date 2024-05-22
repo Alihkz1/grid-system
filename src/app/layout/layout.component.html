@@ -1,0 +1,30 @@
+<div class="main-wrapper">
+    <div class="row h-40">
+        <div class="box col-sm-12 col-md-7 col-lg-7 col-xl-7">
+            <ng-content select="[topRight]"></ng-content>
+        </div>
+        <div class="box col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <ng-content select="[topLeft]"></ng-content>
+        </div>
+    </div>
+    <div class="row h-20">
+        <div class="box col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <ng-content select="[middleLeft]"></ng-content>
+        </div>
+        <div class="box col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <ng-content select="[middleMiddle]"></ng-content>
+        </div>
+        <div class="box col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <ng-content select="[middleRight]"></ng-content>
+        </div>
+    </div>
+    <div class="row h-40">
+        <div class="box col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <ng-content select="[bottomLeft]"></ng-content>
+        </div>
+        <div class="box col-sm-12 col-md-7 col-lg-7 col-xl-7">
+            <ng-content select="[bottomRight]"></ng-content>
+        </div>
+    </div>
+
+</div>
