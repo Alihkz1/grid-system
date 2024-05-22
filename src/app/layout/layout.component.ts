@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-layout',
+  selector: 'grid',
   standalone: true,
   imports: [],
   templateUrl: './layout.component.html',

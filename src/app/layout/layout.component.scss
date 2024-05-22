@@ -1,9 +1,18 @@
-.main-wrapper {
+.main {
     background: aliceblue;
     border-radius: 10px;
-    height: calc(100vh - 0px);
+    height: 100vh;
     width: 100%;
     padding: 10px 40px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #e3f2ff;
+    box-shadow: 1px 1px 10px #d8d8ff;
+    border-radius: 14px;
 }
 
 .h-40 {
@@ -14,9 +23,28 @@
     height: 20% !important;
 }
 
-.box {
-    background-color: #fff;
-    border: 1px solid #e3f2ff;
-    box-shadow: 1px 1px 10px #d8d8ff;
-    border-radius: 14px;
+@media (max-width: 767px) {
+
+    .top-right,
+    .bottom-right {
+        margin-top: 6px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .middle-left,
+    .middle-middle,
+    .middle-right {
+        margin-top: 5px;
+    }
+
+    .top-row,
+    .bottom-row {
+        height: 50% !important;
+    }
+
+    .middle-row {
+        height: 40% !important;
+    }
 }
