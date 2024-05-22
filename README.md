@@ -1,8 +1,3 @@
 # GridSystem
-used packages are listed below:
 
--bootstrap 5
--Ngbmodule 
--Angular Material: 
-  -CdkAccordionModule
-  -ScrollingModule
+On this branch pure responsive layout is available!
