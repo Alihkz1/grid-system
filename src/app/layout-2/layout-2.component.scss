@@ -1,0 +1,44 @@
+.main {
+    background: aliceblue;
+    border-radius: 10px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 40px;
+
+    &-row {
+        overflow: auto;
+        height: calc(100vh - 75px);
+
+        @media (min-width: 1200px) {
+            padding: 50px 200px;
+        }
+
+        @media (max-width: 1200px) {
+            padding: 20px 100px;
+        }
+    }
+}
+
+.header {
+    height: 50px;
+    background: white;
+    border-radius: 4px;
+}
+
+.white {
+    background: #fff;
+    margin: 5px;
+}
+
+.h-300px {
+    height: 300px;
+}
+
+.right-h {
+    height: calc(100vh - 220px);
+}
+
+.left-h {
+    height: calc(100vh - 228px);
+}
