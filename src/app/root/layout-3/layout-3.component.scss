@@ -1,0 +1,97 @@
+.main {
+    background: rgb(243 243 243 / 69%);
+    border-radius: 10px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    &-row {
+        padding: 10px 40px;
+
+        overflow: hidden auto;
+        height: calc(100vh - 75px);
+
+        @media (min-width: 1200px) {
+            padding: 50px 200px;
+        }
+
+        @media (max-width: 1200px) and (min-width: 990px) {
+            padding: 20px 100px;
+        }
+    }
+}
+
+.header {
+    height: 50px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: calc(100vw - 40px);
+    padding: 0 20px;
+    margin: 10px 20px;
+
+    img {
+        height: 20px;
+        cursor: pointer;
+    }
+}
+
+.white {
+    background: #fff;
+    color: #a3a3a3;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-300px {
+    height: 300px;
+}
+
+.left-h {
+    height: calc(100vh - 220px);
+}
+
+@media (max-width: 1199px) {
+    .sp {
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+.bg-b {
+    background: azure;
+}
+
+.bg-y {
+    background: #fffdf0;
+}
+
+.bg-p {
+    background: #edebff;
+}
+
+@media (max-width: 991px) {
+    .r-2 {
+        padding: 8px 4px 0 12px !important;
+    }
+
+    .r-3 {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .r-2 {
+        margin-top: 8px;
+    }
+
+    .r-1,
+    .r-2,
+    .r-3 {
+        padding: 0 10px !important;
+    }
+
+}
