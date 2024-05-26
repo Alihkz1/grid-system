@@ -4,9 +4,10 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    padding: 10px 40px;
 
     &-row {
+        padding: 10px 40px;
+
         overflow: hidden auto;
         height: calc(100vh - 75px);
 
@@ -25,9 +26,11 @@
     background: white;
     border-radius: 4px;
     display: flex;
-    justify-content: space-between;
-    align-items:center;
+    align-items: center;
+    width: calc(100vw - 40px);
     padding: 0 20px;
+    margin: 10px 20px;
+
     img {
         height: 20px;
         cursor: pointer;
