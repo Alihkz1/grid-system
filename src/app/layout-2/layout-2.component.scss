@@ -1,5 +1,5 @@
 .main {
-    background: aliceblue;
+    background: rgb(243 243 243 / 69%);
     border-radius: 10px;
     height: 100vh;
     width: 100%;
@@ -7,14 +7,14 @@
     padding: 10px 40px;
 
     &-row {
-        overflow: auto;
+        overflow: hidden auto;
         height: calc(100vh - 75px);
 
         @media (min-width: 1200px) {
             padding: 50px 200px;
         }
 
-        @media (max-width: 1200px) {
+        @media (max-width: 1200px) and (min-width: 990px) {
             padding: 20px 100px;
         }
     }
@@ -24,11 +24,23 @@
     height: 50px;
     background: white;
     border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 20px;
+    img {
+        height: 20px;
+        cursor: pointer;
+    }
 }
 
 .white {
     background: #fff;
+    color: #a3a3a3;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .h-300px {
@@ -41,4 +53,22 @@
 
 .left-h {
     height: calc(100vh - 228px);
+}
+
+@media (max-width: 767px) {
+    .sp {
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+.bg-b {
+    background: azure;
+}
+
+.bg-y {
+    background: #fffdf0;
+}
+
+.bg-p {
+    background: #edebff;
 }
